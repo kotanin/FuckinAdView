@@ -21,6 +21,12 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@id/fuckinButton"/>
 
+    <ListView
+        android:id="@+id/fuckinList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fuckinButton"/>
+
     <jp.kotanin.fuckinadview.FuckinAdView
         android:id="@+id/fuckinAdView"
         android:layout_width="match_parent"
